@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "futura";
+    src: url("/fonts/futura/futura-medium.ttf");
+}
+
+body { 
+    margin-top: 15%;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+.kanye {
+    font-family: "noir", "futura", Verdana, Geneva, Tahoma, sans-serif;
+    background-color: skyblue;
+    color: black;
+    font-size: 3rem;
+    width: 60%;
+    text-align: center;
+}
+

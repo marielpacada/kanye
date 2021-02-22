@@ -6,7 +6,6 @@ app.set("view engine", "pug");
 async function getQuote(response) {
     const url = "https://api.kanye.rest/";
     const data = await (await fetch(url)).json();
-    console.log(data);
     response.render("index", { quote: data.quote });
 }
 
