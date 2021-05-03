@@ -1,4 +1,3 @@
-const { response } = require("express");
 const express = require("express");
 global.fetch = require("node-fetch");
 const app = express();
